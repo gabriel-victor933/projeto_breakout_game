@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid {
+    background-color: white;
+    width: 1200px;
+    height: 700px;
+    border: solid 1px black;
+    position: relative;
+}
+
+.block {
+    width: 160px;
+    height: 25px;
+    background-color: purple;
+    position: absolute;
+
+}
+
+.user {
+    width: 180px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+
+}
