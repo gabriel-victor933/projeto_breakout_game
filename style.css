@@ -1,7 +1,3 @@
-* {
-    box-sizing: border-box;
-}
-
 body {
     width: 100%;
     height: 100vh;
@@ -17,13 +13,25 @@ body {
     height: 700px;
     border: solid 1px black;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.score {
+    font-size: 80px;
+    color: #000000;
+    display: none;
+}
+
+
 
 .block {
     width: 160px;
     height: 25px;
     background-color: purple;
     position: absolute;
+    margin: 0px;
 
 }
 
@@ -33,4 +41,12 @@ body {
     background-color: red;
     position: absolute;
 
+}
+
+.ball {
+    width: 25px;
+    height: 25px;
+    border-radius: 12.4px;
+    background-color: black;
+    position: absolute;
 }
